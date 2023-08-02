@@ -14,6 +14,8 @@
 		C369DF232A7AD9FD000D8657 /* SurfIosSummer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C369DF212A7AD9FD000D8657 /* SurfIosSummer.xcdatamodeld */; };
 		C369DF252A7ADA00000D8657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C369DF242A7ADA00000D8657 /* Assets.xcassets */; };
 		C369DF282A7ADA00000D8657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C369DF262A7ADA00000D8657 /* LaunchScreen.storyboard */; };
+		C369DF302A7ADA50000D8657 /* CellsForCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369DF2F2A7ADA50000D8657 /* CellsForCollection.swift */; };
+		C369DF342A7ADA7E000D8657 /* CoreDataSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = C369DF332A7ADA7E000D8657 /* CoreDataSkills.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C369DF242A7ADA00000D8657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C369DF272A7ADA00000D8657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C369DF292A7ADA00000D8657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C369DF2F2A7ADA50000D8657 /* CellsForCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsForCollection.swift; sourceTree = "<group>"; };
+		C369DF332A7ADA7E000D8657 /* CoreDataSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSkills.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				C369DF182A7AD9FD000D8657 /* AppDelegate.swift */,
 				C369DF1A2A7AD9FD000D8657 /* SceneDelegate.swift */,
 				C369DF1C2A7AD9FD000D8657 /* ViewController.swift */,
+				C369DF2F2A7ADA50000D8657 /* CellsForCollection.swift */,
+				C369DF332A7ADA7E000D8657 /* CoreDataSkills.swift */,
 				C369DF1E2A7AD9FD000D8657 /* Main.storyboard */,
 				C369DF242A7ADA00000D8657 /* Assets.xcassets */,
 				C369DF262A7ADA00000D8657 /* LaunchScreen.storyboard */,
@@ -143,7 +149,9 @@
 			files = (
 				C369DF1D2A7AD9FD000D8657 /* ViewController.swift in Sources */,
 				C369DF192A7AD9FD000D8657 /* AppDelegate.swift in Sources */,
+				C369DF302A7ADA50000D8657 /* CellsForCollection.swift in Sources */,
 				C369DF232A7AD9FD000D8657 /* SurfIosSummer.xcdatamodeld in Sources */,
+				C369DF342A7ADA7E000D8657 /* CoreDataSkills.swift in Sources */,
 				C369DF1B2A7AD9FD000D8657 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
