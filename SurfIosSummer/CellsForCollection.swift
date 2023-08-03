@@ -15,11 +15,18 @@ class CellsForCollection: UICollectionViewCell {
     @IBOutlet weak var deleteButtonOutlet: UIButton!
     @IBAction func deleteButton(_ sender: Any) {
     }
+   
     @IBOutlet weak var nameSkill: UILabel!
-    
+    //UILabelWithInsets!
+    //var cell = CellsForCollection()
     override func awakeFromNib() {
         super.awakeFromNib()
-        nameSkill.layer.cornerRadius = 15
+//        cell.layer.masksToBounds = true
+//        cell.layer.cornerRadius = 15
+        
+       
+       // nameSkill.textInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
+    
     }
     
     func initCell(item: NSManagedObject){
