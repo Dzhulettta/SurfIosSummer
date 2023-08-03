@@ -17,16 +17,13 @@ class CellsForCollection: UICollectionViewCell {
     }
    
     @IBOutlet weak var nameSkill: UILabel!
-    //UILabelWithInsets!
-    //var cell = CellsForCollection()
+ 
+    @IBOutlet weak var cellColor: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
-//        cell.layer.masksToBounds = true
-//        cell.layer.cornerRadius = 15
-        
-       
-       // nameSkill.textInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
-    
+        cellColor.layer.masksToBounds = true
+        cellColor.layer.cornerRadius = 12
+   
     }
     
     func initCell(item: NSManagedObject){
